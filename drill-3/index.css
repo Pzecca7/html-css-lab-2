@@ -1,0 +1,67 @@
+header {
+   height: 100px; 
+   background-color: rgb(206, 204, 204);
+   display: flex;
+   align-items: center;
+   padding-left: 25px;
+
+}
+
+.blue-square {
+    height: 60px;
+    width: 60px;
+    background-color: rgba(19, 107, 231, 0.75);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.paragraphs {
+    padding: 40px;
+}
+
+.blue, .turqouise, .lime, .golden {
+    height:200px;
+}
+
+.blue {
+    background-color: rgb(29, 98, 225);
+}
+
+.turqouise {
+    background-color: aquamarine;
+}
+
+.lime {
+    background-color: rgb(195, 255, 42);
+}
+
+.golden {
+    background-color: rgb(244, 204, 5);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+
+#circle {
+  height: 70px;
+  width:  70px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 20px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+ 
+}
+
+#question-mark {
+    margin-left: 25px;
+    margin-top: 10px;
+    font-size: 50px;
+    color: white
+}
